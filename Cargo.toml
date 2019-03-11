@@ -1,0 +1,15 @@
+[package]
+name = "rustgen_test"
+version = "0.1.0"
+authors = ["Chriscbr <crybicki98@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+macro_test = { path = "./macro_test" }
+syn = "0.15.28"
+quote = "0.6.11"
+rustc-ap-syntax = "401.0.0"
+proc-macro2 = "0.4.27"
+
+[features]
+full = []
